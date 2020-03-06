@@ -1,0 +1,5 @@
+/* css for app.js */
+
+/* active elements */
+body > section:not(.active) { display:none; }
+body > nav > a:not(.active) { text-decoration:none }

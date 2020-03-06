@@ -1,0 +1,47 @@
+/* css for ui */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* by default include the background of the option for the home navigation */
+body {
+  background: white;
+  color: #010101;
+  /* center in the viewport */
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Open Sans", sans-serif;
+  /* transition for the change in bg color */
+  transition: background 0.2s ease-out;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background: #fff;
+  /* considerable whitespace surrounding the navigation's items */
+  padding: 2rem 3.15rem;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* remove default style and slightly separate the anchor links from one another */
+a {
+  color: inherit;
+  margin: 0 0.2rem;
+  /* display the svg icon and span elements side by side, vertically aligned */
+  display: flex;
+  /* include padding for the background applied on the active item */
+  padding: 0.75rem 1.25rem;
+  border-radius: 30px;
+  /* position relative for the pseudo element */
+  position: relative;
+}
