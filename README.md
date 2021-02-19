@@ -1,2 +1,3 @@
-# spa-script (JS-Tabs)
-Demo: https://spa-script-demo.nikitanikonov.repl.co/
+# Javascript Tabs (spa-script)
+
+Working with html classes and sections, no History API.
